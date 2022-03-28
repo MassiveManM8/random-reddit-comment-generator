@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#header-el {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#template-img {
+  padding-left: 47vh;
+  padding-top: 30px;
+}
+
+#comment-el {
+  color: aqua;
+  position: absolute;
+  left: 355px;
+  top: 230px;
+}
+
+#auth-el {
+  color: aqua;
+  position: absolute;
+  left: 355px;
+  top: 192px;
+}
+
+#score-el {
+  color: aqua;
+  position: absolute;
+  left: 390px;
+  top: 277px;
+}
+
+#link-el {
+  position: absolute;
+  left: 50px;
+  top: 300px;
+}
+
+#time-el {
+  color: aqua;
+  position: absolute;
+  left: 550px;
+  top: 190px;
+}

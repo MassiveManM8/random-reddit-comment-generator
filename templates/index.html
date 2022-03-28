@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href="{{ url_for('static', filename='mainpage.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="{{ url_for('static', filename='quandale.png')}}/">
+    <title>Get random Reddit comments!</title>
+</head>
+<body>
+    
+    
+
+    <img id="thing-img" src="{{url_for('static', filename='rr.jpg')}}"/>
+    <img id="backdrop-img" src="{{url_for('static', filename='backdropp.png')}}"/>
+
+    <a href="https://github.com/MassiveManM8" id="credit-el"><b>* explanation and stuff</b></a>
+
+    <div id="header-el">
+        <h1 id="title-el">Random Reddit Comment Generator</h1>
+    </div>
+    
+
+    
+    <img id="template-img" name="generate-btn" value="Do something" src="{{url_for('static', filename='not_fulll.png')}}"/>
+    <img id="reddit-img" src="{{url_for('static', filename='reddit-logo.png')}}"/>
+
+    
+
+    <div id="main-container"> 
+    <p id="comment-el"><b>{{ comment }}</b></p>
+    <p id="auth-el"><b>{{ auth }}</b></p>
+    <p id="score-el"><b>{{ score }}</b></p>
+    <p id="time-el"><b>{{ time }}</b></p>
+    <p id="link-el"><b>{{ link }}</b></p>
+    </div>
+    
+</body>
+</html>

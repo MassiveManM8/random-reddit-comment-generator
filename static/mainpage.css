@@ -1,0 +1,97 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+#header-el {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#thing-img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 609px;
+}
+
+#credit-el {
+  position: absolute;
+  font-family: "Noto Sans", sans-serif;
+  right: 20px;
+  top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#backdrop-img {
+  position: absolute;
+  left: 0px;
+  top: 93px;
+  height: 588px;
+  width: auto;
+  clip: rect(0px, 1300px, 520px, 0px);
+}
+
+#title-el {
+  text-shadow: 0px 0px 10px gray;
+  position: absolute;
+  left: 200px;
+}
+
+#template-img {
+  position: absolute;
+  left: 286.5px;
+  margin-top: 196px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+#reddit-img {
+  position: absolute;
+  left: 303px;
+  top: 280px;
+  height: 43px;
+  width: auto;
+}
+
+#comment-el {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  color: #ced0d2;
+  position: absolute;
+  left: 365px;
+  top: 298px;
+}
+
+#auth-el {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 21px;
+  color: #d7dadc;
+  position: absolute;
+  left: 360px;
+  top: 261px;
+}
+
+#score-el {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  color: #d7dadc;
+  position: absolute;
+  left: 396px;
+  top: 355px;
+}
+
+#link-el {
+  padding-top: 580px;
+}
+
+#time-el {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 17px;
+  color: #6e7071;
+  position: absolute;
+  left: 554px;
+  top: 267px;
+}
